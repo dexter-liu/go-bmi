@@ -1,3 +1,5 @@
+package gobmi
+
 func CalcFatRate(bmi float64, age int, sex string) (fatRate float64) {
 	sexWeight := 0
 	if sex == "男" {
@@ -16,3 +18,4 @@ func getAgeWeight(age int) (ageWeight float64) {
 	}
 	return
 }
+
